@@ -1,0 +1,1751 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"i",
+				"animic-i\tanimation-iteration-count: infinite;"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"con",
+				"contain"
+			],
+			[
+				"valueS",
+				"valueStyle"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"ha",
+				"hasClass"
+			],
+			[
+				"ch",
+				"checked\t(styles.css)"
+			],
+			[
+				"che",
+				"checked"
+			],
+			[
+				"va",
+				"valueSize"
+			],
+			[
+				"ge",
+				"getUrl"
+			],
+			[
+				"co",
+				"console.log($.get"
+			],
+			[
+				"f",
+				"filter"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"fle",
+				"flex"
+			],
+			[
+				"wi",
+				"width\t(styles.css)"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"bo",
+				"border-box"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"pro",
+				"product_img\t(styles.css)"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"ite",
+				"item"
+			],
+			[
+				"sli",
+				"slideWindowWidth"
+			],
+			[
+				"w",
+				"width\t(adaptive.css)"
+			],
+			[
+				"item",
+				"itemSize"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"bor",
+				"border-box"
+			],
+			[
+				"g",
+				"gm-site"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "body {\n    padding: 0;\n    margin: 0;\n    font-family: 'Days', arial;\n    font-size: 16px;\n}\n\n* {\n\toutline: none;\n\toutline: 0;\n\tbox-sizing: border-box;\n}\naside, header, footer, section {\n\tdisplay: block;\n}\n.site-wrapper {\n    max-width: 1366px;\n    min-width: 320px;\n    margin: 0 auto;\n}\nh2, h3 {\n    font-weight: 100;\n}\n.white-popup {\n    position: relative;\n    background: #FFF;\n    padding: 20px;\n    width: auto;\n    max-width: 300px;\n    margin: 0 auto;\n}\n\n/* header */\nheader {\n    position: relative;\n    margin-top: 39px;\n}\nheader nav {\n    position: fixed;\n    top: 0;\n    z-index: 20;\n    left: auto;\n    width: 100%;\n    max-width: 1366px;\n}\nheader nav ul {\n    margin: 0;\n    padding: 0;\n    list-style: none;\n    background: linear-gradient(#f9f8f8, #ebebeb);\n    display: flex;\n    justify-content: space-around;\n}\nheader nav ul li {\n    display: inline-block;\n    width: 100%;\n}\nheader nav ul li a {\n    padding: 10px;\n    display: block;\n    text-decoration: none;\n    color: #000;\n    background: transparent;\n    width: 100%;\n    text-align: center;\n    white-space: nowrap;\n}\nheader nav ul li a:hover,\nheader nav ul li.current a {\n    color: #fff;\n    background: linear-gradient(to bottom,#FF3838 ,#2D2D2D 86px);\n}\n.header-wrapper {\n    background: url(/assets/bizint/images/header-bg.jpg) no-repeat 0 0;\n    display: flex;\n    position: relative;\n}\n.header-left-container {\n    display: flex;\n    width: 60%;\n}\n.header-right-container {\n\twidth: 40%;\n}\n.logo-container a {\n    display: flex;\n    align-items: center;\n    height: 100%;\n}\n.logo-container img {\n    max-width: 325px;\n}\n.call-phones {\n    font-family: 'Oswald', sans-serif;\n    font-size: 30px;\n    color: #e23a54;\n    text-shadow: #fff 2px 2px 0, #fff -2px -2px 0, #fff -2px 2px 0, #fff 2px -2px 0;\n    padding-left: 50px;\n    background: url(/assets/bizint/images/call.png) no-repeat 0 center;\n    background-size: 45px;\n    margin-left: -66px;\n}\n.phone-container {\n    display: flex;\n    justify-content: flex-start;\n    align-items: baseline;\n}\n.slider-header-item img {\n\tdisplay: inline-block;\n}\n.slider-header-descr {\n    display: inline-block;\n    width: auto;\n}\n.slider-header-descr h3 {\n    max-width: 350px;\n    text-align: center;\n}\n.slider-header-item.slick-slide.slick-current.slick-active {\n    display: flex;\n}\n.slider-header ul.slick-dots {\n\tlist-style: none;\n\tpadding: 0;\n\twidth: max-content;\n\tmargin: 0 auto;\n}\n.slider-header ul.slick-dots button {\n    display: none;\n}\n.slider-header ul.slick-dots li {\n    display: inline-block;\n    background-color: #C4C4C4;\n    width: 16px;\n    height: 16px;\n    margin: 0 10px;\n    border-radius: 50%;\n}\n.slider-header ul.slick-dots li.slick-active {\n    background-color: #6b6b6b;\n}\n.slider-header ul.slick-dots li:hover {\n    background-color: #999999;\n}\n\n/* aside */\n#accordion h3 {\n    border-radius: 0px 34px 0px 0px;\n    font-size: 14px;\n    color: #fff;\n    text-transform: uppercase;\n    font-weight: 100;\n    padding: 9px;\n    margin: 0;\n    background-color: #ed1d25;\n    border: 1px solid #fff;\n    margin-top: -1px;\n    cursor: pointer;\n}\n#accordion h3:hover {\n\tbackground-color: #480000;\n\tborder: 1px solid #480000;\n}\n#accordion h3.ui-state-active {\n\tbackground-color: #E03F3F;\n\tborder: 1px solid #E03F3F;\n}\n.acc-content {\n\tcolor: #fff;\n\tborder-style: solid;\n    border-width: 1px;\n    border-color: #FFFFFF;\n    background-color: #323232;\n    background-color: rgba(0,0,0,0.8);\n    padding: 5px;\n    padding-bottom: 45px;\n}\n.acc-content .yellow {\n\tcolor: #ff9400;\n}\n.big-text {\n    font-size: 22px;\n}\n.acc-content ul {\n    padding-left: 20px;\n    list-style: none;\n}\n.acc-content ul li a {\n    color: #fff;\n    padding: 2px 0;\n    display: block;\n}\n.acc-content > div {\n    margin: 5px 0;\n}\n.acc-content a {\n\tcolor: #fff;\n}\n\n/* content */\n.title-container {\n    background-color: #E03F3F;\n    border-radius: 0px 0px 34px 34px;\n    margin-top: 1px;\n    margin-bottom: 50px;\n    text-align: center;\n}\n.title-container h1 {\n    text-transform: uppercase;\n    color: #fff;\n    font-size: 29px;\n    font-weight: 100;\n    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.48);\n    padding: 3px 0;\n    margin: 0;\n}\n.content {\n    background: #000 url(/assets/bizint/images/content-bg.png) no-repeat 0 0;\n}\n.slider-home-item {\n\theight: 415px;\n    overflow: hidden;\n    border-color: transparent;\n    background-color: transparent;\n    border-radius: 0px 162px 0px 162px;\n}\n.slider-home.slick-initialized.slick-slider {\n    width: 588px;\n}\n.home-content {\n\tbackground-color: #3F3F3F;\n\tbackground-color: rgba(0,0,0,0.75);\n\tborder-radius: 0px 30px 0px 30px;\n\tpadding: 15px;\n}\n.content-wrapper {\n    display: flex;\n    justify-content: space-between;\n}\naside {\n    width: 35%;\n    margin: 0 20px;\n}\nsection {\n    width: 65%;\n    margin: 0 30px 0 10px;\n}\n.content__post-title {\n    font-size: 22px;\n    color: #fff;\n    margin-bottom: 15px;\n    text-align: center;\n}\n.content__text {\n    color: #fff;\n    font-size: 18px;\n    text-align: center;\n}\n.content__text span {\n\tcolor: #ff9400;\n}\n.payment-content,\n.cities-content,\n.static-content,\n.materials-content {\n    background: rgba(0, 0, 0, 0.56);\n    text-align: left;\n    border-radius: 110px;\n    padding: 20px 30px;\n}\n.payment-content .content__text {\n    color: #fff;\n    font-size: 18px;\n    text-align: inherit;\n}\n.content__text h2, h3 {\n    font-weight: 100;\n}\n.yellow {\n    color: #ff9400;\n}\n\n/* suplying materials */\n.materials-supplying-container {\n    margin-top: 10px;\n    margin-left: 15px;\n    margin-right: 30px;\n    display: inline-block;\n}\n.materials-supplying__title {\n    text-align: center;\n    background-color: #E03F3F;\n    opacity: 0.9;\n    border-radius: 0px 40px 0px 0px;\n}\n.materials-supplying__title h2 {\n    text-transform: uppercase;\n    color: #fff;\n    font-weight: 100;\n    margin: 0;\n    padding: 5px 0;\n}\n.materials-supplying__content {\n\tbackground-color: #3F3F3F;\n    background-color: rgba(0,0,0,0.75);\n    border-radius: 0px 0px 30px 0px;\n    color: #fff;\n    font-size: 24px;\n}\n.materials-supplying__content ul {\n    margin: 0;\n    display: inline-block;\n}\n.materials-supplying__content ul li {\n    margin: 25px 0px;\n}\n\n/* contacts */\n.contacts-content {\n    background-color: #4C4C4C;\n    background-color: rgba(0,0,0,0.7);\n    border-radius: 0px 90px 0px 90px;\n    padding: 20px 40px;\n}\n.contacts-content .content__text {\n    text-align: inherit;\n}\n.contacts__title-big {\n    font-size: 24px;\n    margin-top: 14px;\n}\n.contacts__title-small {\n    font-size: 14px;\n    margin-top: 25px;\n}\n.contacts-content a,\n.contacts-content span {\n    color: #fff;\n    font-size: 20px;\n}\n.contacts__map {\n    margin-top: 30px;\n}\n.contacts-form {\n    background-color: #4C4C4C;\n    background-color: rgba(0,0,0,0.7);\n    border-radius: 0px 90px 0px 90px;\n    padding: 0 20px 40px;\n    margin-top: 20px;\n}\n.contacts-form h2 {\n    color: #fff;\n    font-weight: 100;\n    text-transform: uppercase;\n    text-align: center;\n    margin: 0;\n}\n.contacts-form .form-group {\n    display: flex;\n    justify-content: space-between;\n    text-transform: uppercase;\n    margin-top: 20px;\n}\n.contacts-form .controls {\n    padding-right: 70px;\n    width: 33%;\n}\n.contacts-form .controls-area {\n    width: 100%;\n}\nlabel.top {\n    width: 100%;\n    display: block;\n}\n.controls label.top span {\n    min-height: 30px;\n    border-style: solid;\n    border-color: #FFFFFF;\n    background-color: transparent;\n    border-radius: 0px 41px 0px 41px;\n    font-size: 12px;\n    line-height: 26px;\n    letter-spacing: 0px;\n    color: #FFFFFF;\n    text-align: center;\n    font-weight: 400;\n    border-width: 2px 2px 0px;\n    width: 100%;\n    display: block;\n}\n.controls > span {\n    position: relative;\n    display: block;\n    height: 27px;\n}\n.controls input[type=\"text\"], .controls span label.bottom {\n    position: absolute;\n    top: 0;\n    left: 0;\n    background: transparent;\n    border: none;\n    width: 100%;\n    display: block;\n}\n.controls input[type=\"text\"],\n.controls-area textarea {\n    z-index: 10;\n    text-align: center;\n    text-transform: uppercase;\n    font-family: 'Days', arial;\n    border-color: #DDDDDD;\n    background-color: #FFFFFF;\n    border-radius: 40px 0px 40px 0px;\n    padding: 6px;\n}\n.controls-area textarea {\n    width: 100%;\n    height: 115px;\n}\n.controls input[type=\"text\"]::-webkit-input-placeholder,\n.controls-area textarea::-webkit-input-placeholder {\n    color: #C4C4C4;\n}\n\n.controls input[type=\"text\"]::-moz-placeholder,\n.controls-area textarea::-moz-placeholder {\n    color: #C4C4C4;\n}\n\n.controls input[type=\"text\"]::-ms-placeholder,\n.controls-area textarea::-ms-placeholder {\n    color: #C4C4C4;\n}\n\n.controls input[type=\"text\"]::placeholder,\n.controls-area textarea::placeholder {\n    color: #C4C4C4;\n}\n.controls input[type=\"text\"].error {\n    color: #D7244C;\n}\n.controls input[type=\"text\"].error::placeholder {\n    color: #D7244C;\n}\n.controls input[type=\"text\"].error::-webkit-input-placeholder {\n    color: #D7244C;\n}\n.controls input[type=\"text\"].error::-moz-placeholder {\n    color: #D7244C;\n}\n.controls input[type=\"text\"].error::-ms-placeholder {\n    color: #D7244C;\n}\n.controls span label.bottom {\n    min-height: 28px;\n    border-color: #DDDDDD;\n    background-color: #FFFFFF;\n    border-radius: 40px 0px 40px 0px;\n    padding: 6px;\n}\n.controls label.bottom span {\n    display: block;\n    width: 100%;\n    text-align: center;\n    font-size: 12px;\n}\n.contacts-form button {\n    border-width: 0px;\n    border-color: transparent;\n    background-color: #000;\n    display: block;\n    margin: 10px auto;\n    border-radius: 40px 0px 40px 0px;\n    font-size: 19px;\n    letter-spacing: 3px;\n    color: #FFFFFF;\n    font-family: 'Days', arial;\n    text-transform: uppercase;\n    padding: 20px 50px;\n}\n.contacts-form button:hover {\n    background-color: #7F7F7F;\n}\n\n/*prices*/\n .price-content {\n    background: rgba(0, 0, 0, 0.56);\n    text-align: left;\n    border-radius: 110px;\n    padding: 50px 30px;\n    margin: 0 auto;\n}\n.price-content table {\n    font-size: 13px;\n    width: 100%;\n}\n.price-content table tr:nth-child(1) {\n    background: rgba(210, 210, 210, 0.48);\n}\n.price-content.red {\n    background-color: rgba(237,28,36,0.5);\n    margin-top: 20px;\n    margin-left: 15px;\n    margin-right: 30px;\n    text-align: center;\n    text-transform: uppercase;\n    font-size: 42px;\n    color: #fff;\n}\n\n/* cities */\n.cities-content h3 {\n    text-transform: uppercase;\n}\n.cities-content .content__text {\n    text-align: inherit;\n}\n.cities-content .map div {\n    width: max-content;\n    margin: 0 auto;\n}\n\n/* static */\n.static-content .content__text {\n    color: #fff;\n    text-align: inherit;\n}\n.static-content a {\n    color: #fff;\n}\n.static-content ul li {\n    margin: 20px 0;\n}\n.static-content .content__text p {\n    font-size: 14px;\n}\n.static-content table,\n.materials-content table {\n    font-size: 12px;\n    border-collapse: collapse;\n    text-align: center;\n    margin: 0 auto;\n    width: 100%!important;\n}\n.static-content table, th, td, .materials-content table {\n    border: 1px solid #ccc;\n    height: 30px;\n}\n.static-content tr,\n.materials-content tr {\n    background: rgba(204, 204, 204, 0.1);\n}\n.static-content tr:nth-child(even),\n.materials-content tr:nth-child(even) {\n    background: rgba(204, 204, 204, 0.37);\n}\n.static-content tr:nth-child(1),\n.materials-content tr:nth-child(1),\n.static-content th,\n.materials-content th {\n    background: rgba(226, 102, 102, 0.62);\n}\n.static-content .content__text span {\n    color: #fff;\n}\n.materials-content {\n    color: #fff;\n}\n.content__benefits .our-benefits__title {\n    font-size: 32px;\n    margin: 10px 0;\n}\n.materials-content ul.benefits-container {\n    margin: 0;\n    padding: 0;\n    display: block;\n    list-style: none;\n    display: flex;\n    flex-wrap: wrap;\n}\n.materials-content li.benefits-item {\n    background: url(/assets/bizint/images/check.png) no-repeat 0 0;\n    background-size: 20px;\n    padding-left: 20px;\n    font-size: 15px;\n    width: 50%;\n}\n.materials-content .content__table {\n    overflow-x: auto;\n}\n.materials-content .content__text {\n    text-align: inherit;\n}\n.materials-content .content__text ul li {\n    text-align: left;\n}\n.materials-content .content__text ul li.justifyleft {\n    text-align: left;\n}\n.materials-content .content__text ul li.justifyright {\n    text-align: right;\n}\n.materials-content .content__text a {\n    color:#fff;\n}\n.materials-content .content__text a:hover {\n    color: #F15A24;\n    text-decoration: inherit;\n}\n.content__order a {\n    -moz-box-shadow: 0 3px 0 #449d44;\n    -webkit-box-shadow: 0 3px 0 #449d44;\n    box-shadow: 0 3px 0 #449d44;\n    -webkit-border-radius: 3px;\n    -moz-border-radius: 3px;\n    -ms-border-radius: 3px;\n    border-radius: 3px;\n    padding: 5px 15px;\n    border: 0;\n    background: #5cb85c;\n    margin: 0 0 5px 0;\n    color: #fff;\n    outline: 0;\n    text-decoration: none;\n    font-size: 14px;\n    display: inline-block;\n    margin-top: 20px;\n}\n.content__imgs {\n    position: relative;\n    display: flex;\n    justify-content: center;\n}\n.imgs-container {\n    display: inline-block;\n    margin-left: -134px;\n    max-width: 270px;\n}\n.imgs-container-big {\n    display: inline-block;\n    max-width: 50%;\n}\n.imgs-container:first-child {\n    margin-left: 0;\n}\n.clip_only {\n    -webkit-border-radius: 0px 90px 0px 90px;\n    border-radius: 0px 90px 0px 90px;\n    overflow: hidden;\n}\n.clip_only img {\n    width: 100%;\n}\n.clip_frame {\n    -webkit-border-radius: 70px 70px 70px 70px;\n    border-radius: 70px 70px 70px 70px;\n    overflow: hidden;\n}\n.clip_frame img {\n    display: block;\n}\n.content__to-prices a {\n    max-width: 224px;\n    box-shadow: -1px 6px 8px rgba(241,90,36,0.28);\n    border-color: #787878;\n    background-color: #FFFFFF;\n    background-color: rgba(255,255,255,0.7);\n    border-radius: 10px;\n    padding: 11px 0;\n    text-align: center;\n    /* margin-left: 236px; */\n    color: #612B2C;\n    /* margin-top: 23px; */\n    display: block;\n    margin: 30px auto;\n    position: relative;\n    text-decoration: none;\n    font-size: 14px;\n}\n.content__to-prices a:hover {\nbackground-color: rgba(84,84,84,0.7);\ncolor: #fff;\n}\n\n/* footer */\nfooter {\n    padding-bottom: 30px;\n}\n.foot-container {\n\tbackground-color: #2D373E;\n\tbackground-color: rgba(0,12,20,0.82);\n\tborder-radius: 40px 0px 40px 0px;\n\tpadding-bottom: 18px;\n    margin-top: 60px;\n\tmargin-left: 15px;\n\tmargin-right: 30px;\n\tpadding: 40px 0px;\n\tdisplay: block;\n}\n.foot-wrapper {\n    display: block;\n    margin: 0 auto;\n    width: max-content;\n}\n.foot-text {\n    color: #fff;\n    font-size: 20px;\n    margin-bottom: 25px;\n}\n.foot-phones {\n    color: #ff9400;\n    font-size: 22px;\n}\n\n.order-form {\n    font-weight: 100;\n}\n.order-form h2 {\n    font-size: 14px;\n    background-color: #E03F3F;\n    padding: 10px;\n    text-align: center;\n    color: #fff;\n}\n.order-descr {\n    font-size: 13px;\n    margin-bottom: 10px;\n    font-family: Arial, sans-serif;\n}\n.order-form input[type=\"text\"] {\n    border: 1px solid #ccc;\n    border-radius: 0;\n    margin: 5px 0;\n    position: static;\n}\n.order-form textarea {\n    border-radius: 0;\n    height: 60px;\n    text-align: left;\n}\n.order-form label {\n    display: block;\n    font-size: 14px;\n    margin-top: 5px;\n    color: #717171;\n}\n.order-form select {\n    display: block;\n    width: 100%;\n    border: 1px solid #ccc;\n    background: transparent;\n    height: 30px;\n}\n.order-form label.payng-label {\n    display: inline-block;\n    margin: 10px 0;\n}\n.order-form button {\n    -moz-box-shadow: 0 3px 0 #449d44;\n    -webkit-box-shadow: 0 3px 0 #449d44;\n    box-shadow: 0 3px 0 #449d44;\n    -webkit-border-radius: 3px;\n    -moz-border-radius: 3px;\n    -ms-border-radius: 3px;\n    border-radius: 3px;\n    padding: 5px 15px;\n    border: 0;\n    background: #5cb85c;\n    margin: 0 0 5px 0;\n    color: #fff;\n    outline: 0;\n    text-decoration: none;\n    font-size: 14px;\n    display: block;\n    font-family: 'Days', arial;\n    margin: 0 auto;\n}\n\n\n\n/* Media */\n\n@media (max-width: 1220px) {\n    .header-left-container {\n        width: 55%;\n    }\n    .header-right-container {\n        width: 45%;\n    }\n}\n\n@media (max-width: 1140px) {\n    .header-left-container, .header-right-container {\n        width: 50%;\n    }\n    .logo-container img {\n        width: 100%;\n    }\n    .logo-container, .phone-container {\n        width: 50%;\n    }\n    .foot-wrapper {\n        width: 100%;\n        padding: 0 20px;\n    }\n    .foot-text {\n        text-align: center;\n    }\n}\n\n@media (max-width: 992px) {\n    .header-right-container .slider-header {\n        width: 500px;\n        margin: 0 auto;\n    }\n    .slider-header-descr h3 {\n        font-size: 14px;\n    }\n    .slider-header-item.slick-slide {\n        height: 75px;\n    }\n    .slider-header-item img {\n        height: 100%;\n    }\n    .header-wrapper {\n        flex-direction: column;\n        padding: 0 15px;\n    }\n    .header-left-container, .header-right-container {\n        width: 100%;\n    }\n    .logo-container img {\n        width: 200px;\n    }\n    .call-phones {\n        margin-left: auto;\n    }\n    .big-text {\n        font-size: 16px;\n    }\n    .content-wrapper {\n        flex-wrap: wrap;\n    }\n    section {\n        width: 100%;\n        margin: 40px 0;\n    }\n    aside {\n        width: 400px;\n        margin: 0 auto;\n    }\n    .content {\n        padding: 0 15px;\n    }\n    .foot-container {\n         margin-left: 15px; \n         margin-right: 30px; \n    }\n    .contacts-form .form-group {\n        flex-direction: column;\n    }\n    .contacts-form .controls {\n        padding-right: 0;\n        width: 33%;\n    }\n    .contacts-form .controls {\n        padding-right: 0;\n        width: 300px;\n        margin: 0 auto 20px;\n    }\n    .contacts-form .controls-area {\n        width: 100%;\n        width: 500px;\n        margin: 0 auto;\n    }\n    .title-container h1 {\n        text-align: center;\n    }\n    .price-content.red {\n        font-size: 30px;\n    }\n    .price-content,\n    .static-content {\n        overflow-x: scroll;\n    }\n}\n\n@media (max-width: 680px) {\n    header {\n        margin-top: 0;\n    }\n    .title-container h1 {\n        font-size: 24px;\n    }\n    .header-wrapper {\n        background: url(/assets/bizint/images/header-bg.jpg) no-repeat 32% 0;\n    }\n    .contacts-form .controls-area {\n        width: 300px;\n    }\n    .slider-home.slick-initialized.slick-slider {\n        width: 460px;\n        margin: 0 auto;\n    }\n}\n@media (max-width: 520px) {\n    .call-phones {\n        font-size: 23px;\n    }\n    .header-right-container .slider-header {\n        width: 400px;\n        margin: 0 auto;\n    }\n    .title-container {\n        padding: 0 10px;\n    }\n    .title-container h1 {\n        font-size: 20px;\n    }\n    .header-wrapper {\n        background: url(/assets/bizint/images/header-bg.jpg) no-repeat 13% 0;\n    }\n    .foot-container {\n        margin-top: 30px;\n        margin-left: 0px;\n        margin-right: 0px;\n    }\n    section {\n        margin: 40px 0 0 0;\n    }\n    .slider-home.slick-initialized.slick-slider {\n        width: 345px;\n        margin: 0 auto;\n    }\n    .materials-supplying__content {\n        font-size: 18px;\n    }\n    .materials-supplying__title h2 {\n        padding: 5px 10px;\n        font-size: 20px;\n    }\n    .slider-home.slick-initialized.slick-slider {\n        width: 260px;\n        margin: 0 auto;\n    }\n    .materials-content li.benefits-item {\n        width: 100%;\n    }\n}\n\n@media (max-width: 420px) {\n    .header-right-container {\n        display: none;\n    }\n    .contacts-content {\n        padding: 20px;\n    }\n    .header-left-container {\n        flex-wrap: wrap;\n    }\n    .logo-container, .phone-container {\n        width: 100%;\n        text-align: center;\n    }\n    .call-phones {\n        margin: 0 auto;\n    }\n    .contacts-form {\n        padding: 0;\n    }\n    .contacts-form .controls {\n        width: 285px;\n    }\n    .controls-area textarea {\n        width: 285px;\n    }\n}",
+			"file": "/media/job/projects/bizint/css/style.css",
+			"file_size": 19800,
+			"file_write_time": 131503020178354289,
+			"settings":
+			{
+				"buffer_size": 19801,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/media/job/projects/bizint/elements/chunks/popup.tpl",
+			"settings":
+			{
+				"buffer_size": 418,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "contacts.tpl",
+			"settings":
+			{
+				"buffer_size": 2099,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_base.tpl",
+			"settings":
+			{
+				"buffer_size": 381,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/media/job/projects/bizint/elements/chunks/orderForm.tpl",
+			"settings":
+			{
+				"buffer_size": 1576,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "materials.tpl",
+			"settings":
+			{
+				"buffer_size": 1409,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/media/job/projects/dekor/assets/elements/chunks/sliderHome.tpl",
+			"settings":
+			{
+				"buffer_size": 307,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/media/job/projects/bizint/elements/chunks/materialBenefits.tpl",
+			"settings":
+			{
+				"buffer_size": 281,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/media/job/projects/bizint/elements/chunks/header.tpl",
+			"settings":
+			{
+				"buffer_size": 1260,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/media/job/projects/bizint/elements/chunks/callForm.tpl",
+			"settings":
+			{
+				"buffer_size": 1327,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"sftp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"anf",
+				"ANF: New File"
+			]
+		],
+		"width": 585.0
+	},
+	"console":
+	{
+		"height": 180.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/media/job/projects/bizint",
+		"/media/job/projects/bizint/css",
+		"/media/job/projects/bizint/elements",
+		"/media/job/projects/bizint/elements/chunks",
+		"/media/job/projects/bizint/elements/templates",
+		"/media/job/projects/bizint/js"
+	],
+	"file_history":
+	[
+		"/media/job/projects/bizint/elements/chunks/scripts.tpl",
+		"/media/job/projects/bizint/elements/chunks/meta.tpl",
+		"/media/job/projects/bizint/css/style.css",
+		"/media/job/projects/bizint/elements/templates/_base.tpl",
+		"/media/job/projects/bizint/elements/templates/contacts.tpl",
+		"/media/job/projects/bizint/elements/templates/page.tpl",
+		"/media/job/projects/bizint/elements/templates/gosts_c.tpl",
+		"/media/job/projects/u4g_origin/have-questions-form-2.php",
+		"/media/job/projects/bizint/js/jquery.meanmenu.js",
+		"/media/job/projects/bizint/elements/templates/cities.tpl",
+		"/media/job/projects/bizint/elements/templates/prices.tpl",
+		"/media/job/projects/bizint/elements/templates/payment.tpl",
+		"/tmp/sublime-sftp-browse-1505389895/mapped/www/bi.wmnew.ru/assets/bizint/css/style.css",
+		"/media/job/projects/bizint/elements/chunks/sidebar.tpl",
+		"/media/job/projects/bizint/elements/templates/home.tpl",
+		"/media/job/projects/bizint/elements/chunks/header.tpl",
+		"/media/job/projects/bizint/elements/chunks/footer.tpl",
+		"/media/job/projects/dhl_origin/all_site/assets/dhl/elements/chunks/header.tpl",
+		"/media/job/projects/bizint/sftp-config.json",
+		"/media/job/projects/dekor/assets/css/styles.css",
+		"/media/job/projects/dekor/assets/elements/templates/production.tpl",
+		"/media/job/projects/dekor/assets/elements/templates/sales.tpl",
+		"/media/job/projects/dekor/assets/elements/chunks/sidebar-sale.tpl",
+		"/media/job/projects/dekor/assets/elements/chunks/footer.tpl",
+		"/media/job/projects/dekor/assets/elements/templates/produce.tpl",
+		"/media/job/projects/dekor/assets/elements/templates/catalog.tpl",
+		"/media/job/projects/dekor/assets/elements/chunks/productsFilter.tpl",
+		"/media/job/projects/dekor/assets/js/script.js",
+		"/media/job/projects/dekor/assets/elements/chunks/scripts.tpl",
+		"/media/job/projects/dekor/sftp-config.json",
+		"/home/iframe/Загрузки/config.inc.php",
+		"/home/iframe/Загрузки/config.core.php",
+		"/media/job/projects/dekor/assets/js/catalog.js",
+		"/media/job/projects/dekor/assets/elements/chunks/sidebar.tpl",
+		"/media/job/projects/dekor/assets/js/jquery.js",
+		"/media/job/projects/dekor/test.php",
+		"/media/job/projects/dekor/matrix.json",
+		"/media/job/projects/dekor/assets/elements/chunks/productsMainRow.tpl",
+		"/home/iframe/Загрузки/filemgr.FD5IyK.2017-08-28_10_32_51/munshain.php",
+		"/home/iframe/Загрузки/filemgr.FD5IyK.2017-08-28_10_32_51/schukina-pro.php",
+		"/home/iframe/Загрузки/filemgr.FD5IyK.2017-08-28_10_32_51/schukina.php",
+		"/home/iframe/Загрузки/filemgr.FD5IyK.2017-08-28_10_32_51/index.php",
+		"/home/iframe/Загрузки/filemgr.FD5IyK.2017-08-28_10_32_51/butleger.php",
+		"/home/iframe/Загрузки/filemgr.FD5IyK.2017-08-28_10_32_51/kapitan.php",
+		"/home/iframe/Загрузки/filemgr.FD5IyK.2017-08-28_10_32_51/scripts.php",
+		"/home/iframe/Загрузки/filt.php",
+		"/media/job/projects/dekor/assets/elements/templates/cart.tpl",
+		"/media/job/projects/dekor/assets/elements/chunks/header.tpl",
+		"/media/job/projects/dekor/assets/js/jquery.meanmenu.js",
+		"/media/job/projects/dekor/assets/elements/chunks/meta.tpl",
+		"/media/job/projects/dekor/assets/elements/templates/_base.tpl",
+		"/media/job/projects/dekor/assets/elements/templates/kontakts.tpl",
+		"/media/job/projects/dekor/assets/elements/templates/home.tpl",
+		"/media/job/projects/dekor/assets/elements/chunks/consultForm.tpl",
+		"/media/job/projects/dekor/assets/elements/templates/product.tpl",
+		"/media/job/projects/dekor/assets/elements/chunks/popup.tpl",
+		"/media/job/projects/dekor/assets/elements/chunks/callForm.tpl",
+		"/media/job/projects/dekor/assets/elements/chunks/breadcrumbs.tpl",
+		"/media/job/projects/dekor/assets/elements/templates/staticPage.tpl",
+		"/media/job/projects/dekor/assets/elements/templates/order.tpl",
+		"/media/job/projects/dekor/assets/elements/templates/gallery.tpl",
+		"/media/job/projects/dekor/assets/elements/chunks/galleryRowTpl.tpl",
+		"/media/job/projects/dekor/assets/elements/chunks/productSelfGallery.tpl",
+		"/media/job/projects/dekor/assets/elements/chunks/footProduce.tpl",
+		"/media/job/projects/dekor/assets/elements/chunks/produceImgRowTpl.tpl",
+		"/media/job/projects/dekor/assets/elements/chunks/produce.tpl",
+		"/media/job/projects/dekor/assets/elements/chunks/productSelfGalleryRow.tpl",
+		"/media/job/projects/dekor/assets/elements/chunks/productRowTpl.tpl",
+		"/media/iframe/C4142DAF142DA580/projects/dekor/.htaccess",
+		"/media/iframe/C4142DAF142DA580/projects/dekor/manager/config.core.php",
+		"/media/iframe/C4142DAF142DA580/projects/dekor/assets/elements/templates/galleryItem.tpl",
+		"/media/iframe/C4142DAF142DA580/projects/dekor/assets/elements/templates/product.tpl",
+		"/media/iframe/C4142DAF142DA580/projects/dekor/assets/elements/chunks/scripts.tpl",
+		"/media/iframe/C4142DAF142DA580/projects/dekor/deco-r.su/catalog.php",
+		"/media/iframe/C4142DAF142DA580/projects/dekor/assets/elements/chunks/meta.tpl",
+		"/media/iframe/C4142DAF142DA580/projects/dekor/assets/elements/chunks/header.tpl",
+		"/media/iframe/C4142DAF142DA580/projects/dekor/assets/css/styles.css",
+		"/media/iframe/C4142DAF142DA580/projects/dekor/assets/images",
+		"/media/iframe/C4142DAF142DA580/projects/dekor/deco-r.su/inc/footer.php",
+		"/media/iframe/C4142DAF142DA580/projects/dekor/.gitignore",
+		"/media/iframe/C4142DAF142DA580/projects/dekor/index.html",
+		"/media/iframe/C4142DAF142DA580/projects/dekor/sftp-config.json",
+		"/media/iframe/C4142DAF142DA580/projects/karkas/.gitignore",
+		"/media/iframe/C4142DAF142DA580/projects/diplomivuzov/css/styles.css",
+		"/media/iframe/C4142DAF142DA580/projects/diplomivuzov/sftp-config.json",
+		"/media/iframe/C4142DAF142DA580/projects/diplomivuzov/css/adaptive.css",
+		"/media/iframe/C4142DAF142DA580/projects/karkas/app/sftp-config.json",
+		"/media/iframe/C4142DAF142DA580/projects/first_project/package.json",
+		"/media/iframe/C4142DAF142DA580/projects/first_project/gulpfile.js",
+		"/media/iframe/C4142DAF142DA580/projects/karkas/package.json",
+		"/media/iframe/C4142DAF142DA580/projects/karkas/sftp-config.json",
+		"/media/iframe/C4142DAF142DA580/projects/diplomivuzov/css/demo.css",
+		"/media/iframe/C4142DAF142DA580/projects/gm/bitrix/templates/mnemaloru/header.php",
+		"/media/iframe/C4142DAF142DA580/projects/gm/bitrix/templates/mnemaloru/components/bb/review.add/.default/style.css",
+		"/home/iframe/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/media/iframe/C4142DAF142DA580/projects/gm/sftp-config.json",
+		"/home/iframe/.config/sublime-text-3/Packages/User/SFTP.errors.log"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 136.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"logo",
+			".content",
+			"payment-content"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/media/job/projects/bizint/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19801,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15876,
+								15876
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 17292.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/media/job/projects/bizint/elements/chunks/popup.tpl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 418,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								288,
+								302
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										409,
+										410
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "contacts.tpl",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2099,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1829,
+								1805
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										2015,
+										2016
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 414.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_base.tpl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								315,
+								315
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										320,
+										321
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										289,
+										290
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/media/job/projects/bizint/elements/chunks/orderForm.tpl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1576,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								692,
+								692
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										692,
+										693
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										686,
+										687
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 138.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "materials.tpl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								113,
+								141
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										143,
+										145
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										110,
+										112
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 69.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/media/job/projects/dekor/assets/elements/chunks/sliderHome.tpl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 307,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13,
+								59
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										58,
+										59
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/media/job/projects/bizint/elements/chunks/materialBenefits.tpl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								281,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										51,
+										53
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1,
+										3
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/media/job/projects/bizint/elements/chunks/header.tpl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								581,
+								581
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										582,
+										583
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										529,
+										530
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/media/job/projects/bizint/elements/chunks/callForm.tpl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1327
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1322,
+										1326
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1,
+										5
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 32.0
+	},
+	"pinned_build_system": "",
+	"project": "bizint.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"style",
+				"app/css/style.min.css"
+			],
+			[
+				".gi",
+				".gitignore"
+			],
+			[
+				"he",
+				"bitrix/templates/mnemaloru/header.php"
+			],
+			[
+				"s",
+				"bitrix/templates/mnemaloru/css/styles.css"
+			],
+			[
+				"head",
+				"bitrix/templates/mnemaloru/header.php"
+			],
+			[
+				"adap",
+				"bitrix/templates/mnemaloru/css/adaptive.css"
+			],
+			[
+				"sty",
+				"bitrix/templates/mnemaloru/components/bb/review.add/.default/style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/media/job/projects/dekor/dekor.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
